@@ -9,18 +9,18 @@ namespace ShopExercise.HR
     internal class Employee
     {
         private string firstName;
-        public string lastName;
-        public string email;
+        private string lastName;
+        private string email;
 
-        public int numberOfHoursWorked;
-        public double wage;
-        public double? hourlyRate;
+        private int numberOfHoursWorked;
+        private double wage;
+        private double? hourlyRate;
 
-        public DateTime dob;
+        private DateTime dob;
+        private EmployeeType employeeType;
+        private const int minimalHoursWorkedUnit = 1;
 
-        public EmployeeType employeeType;
-        const int minimalHoursWorkedUnit = 1;
-
+        public static double taxRate = 0.15;
         public static double bonusPercentage = 0.15;
 
         public static void IncreaseBonusPercentage(double newPercentage)
@@ -28,32 +28,75 @@ namespace ShopExercise.HR
             bonusPercentage = newPercentage;
         }
 
-        public static double taxRate = 0.15;
-
         public string FirstName
         {
             get { return firstName; }
             set { firstName = value; }
+        }
+        public string LastName
+        {
+            get { return lastName; }
+            set { lastName = value; }
+        }
+        public string Email
+        {
+            get { return email; }
+            set { email = value; }
+        }
+        public int NumberOfHoursWorked
+        {
+            get { return numberOfHoursWorked; }
+            private set { numberOfHoursWorked = value; }
+        }
+        public double Wage
+        {
+            get { return wage; }
+            private set { wage = value; }
+        }
+        public DateTime Dob
+        {
+            get { return dob; }
+            private set { dob = value; }
+        }
+        public EmployeeType EmployeeType
+        {
+            get { return employeeType; }
+            private set { employeeType = value; }
+        }
+        public double? HourlyRate
+        {
+            get { return hourlyRate; }
+            set
+            {
+                if (hourlyRate < 0)
+                {
+                    hourlyRate = 0;
+                }
+                else
+                {
+                    hourlyRate = value;
+                }
+            }
         }
 
         public Employee(string first, string last, string em, DateTime bd)
             : this(first, last, em, bd, 0, EmployeeType.StoreManager) { }
 
         public Employee(
-            string first,
-            string last,
-            string em,
-            DateTime bd,
-            double? rate,
-            EmployeeType empType
+            string firstName,
+            string lastName,
+            string email,
+            DateTime dob,
+            double? hourlyRate,
+            EmployeeType employeeType
         )
         {
-            firstName = first;
-            lastName = last;
-            email = em;
-            dob = bd;
-            hourlyRate = rate;
-            employeeType = empType;
+            FirstName = firstName;
+            LastName = lastName;
+            Email = email;
+            Dob = dob;
+            HourlyRate = hourlyRate ?? 10;
+            EmployeeType = employeeType;
         }
 
         public void PerformWork()
@@ -67,30 +110,30 @@ namespace ShopExercise.HR
 
         public void PerformWork(int numberOfHours)
         {
-            numberOfHoursWorked++;
-            Console.WriteLine($"{firstName} {lastName} has worked for {numberOfHours} hour(s)!");
+            NumberOfHoursWorked += numberOfHours;
+            Console.WriteLine($"{FirstName} {LastName} has worked for {numberOfHours} hour(s)!");
         }
 
         public double ReceiveWage(bool resetHours = true)
         {
             double wageBeforeTax = 0.0;
-            if (employeeType == EmployeeType.Manager)
+            if (EmployeeType == EmployeeType.Manager)
             {
                 Console.WriteLine(
                     $"An extra was added to the wage since {firstName} is a manager!"
                 );
-                wageBeforeTax = numberOfHoursWorked * hourlyRate.Value * 1.25;
+                wageBeforeTax = NumberOfHoursWorked * HourlyRate.Value * 1.25;
             }
             else
             {
-                wageBeforeTax = numberOfHoursWorked * hourlyRate.Value;
+                wageBeforeTax = NumberOfHoursWorked * HourlyRate.Value;
             }
 
             double taxAmount = wageBeforeTax - taxRate;
             wage = wageBeforeTax - taxAmount;
 
             Console.WriteLine(
-                $"{firstName} {lastName} has recevied a wage of {wage} for {numberOfHoursWorked} hour(s) of work."
+                $"{FirstName} {LastName} has recevied a wage of {Wage} for {NumberOfHoursWorked} hour(s) of work."
             );
 
             if (resetHours)
@@ -104,14 +147,14 @@ namespace ShopExercise.HR
         public void DisplayEmployeeDetails()
         {
             Console.WriteLine(
-                $"\nFirst Name: \t{firstName}\nLast name: \t{lastName}\nEmail: \tt{email}\nBirthday: \t{dob.ToShortDateString()}\nTax rate: \t {taxRate}"
+                $"\nFirst Name: \t{FirstName}\nLast name: \t{LastName}\nEmail: \t\t{Email}\nBirthday: \t{Dob.ToShortDateString()}\nTax rate: \t {taxRate}"
             );
         }
 
         public int CalculateBonusAndBonusTax(int bonus, out int bonusTax)
         {
             bonusTax = 0;
-            if (numberOfHoursWorked > 10)
+            if (NumberOfHoursWorked > 10)
             {
                 bonus *= 2;
             }

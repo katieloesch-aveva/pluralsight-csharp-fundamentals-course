@@ -26,3 +26,4 @@ C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\Shop
 C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.pdb
 C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.genruntimeconfig.cache
 C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ref\ShopExercise.dll
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.sourcelink.json
