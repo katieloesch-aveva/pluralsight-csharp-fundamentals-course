@@ -1,0 +1,28 @@
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.exe
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.deps.json
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.runtimeconfig.json
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.dll
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.pdb
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.AssemblyInfoInputs.cache
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.AssemblyInfo.cs
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.csproj.CoreCompileInputs.cache
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.dll
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\refint\ShopExercise.dll
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.pdb
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.genruntimeconfig.cache
+C:\Users\katie.loesch\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ref\ShopExercise.dll
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.exe
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.deps.json
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.runtimeconfig.json
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.dll
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\bin\Debug\net8.0\ShopExercise.pdb
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.AssemblyInfoInputs.cache
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.AssemblyInfo.cs
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.csproj.CoreCompileInputs.cache
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.dll
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\refint\ShopExercise.dll
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.pdb
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ShopExercise.genruntimeconfig.cache
+C:\Users\katie.loesch\OneDrive - AVEVA Solutions Limited\dev\CsharpProjects\ShopExercise\ShopExercise\obj\Debug\net8.0\ref\ShopExercise.dll
