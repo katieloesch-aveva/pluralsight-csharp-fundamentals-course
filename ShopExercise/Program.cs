@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using ShopExercise;
 using ShopExercise.Accounting;
 using ShopExercise.HR;
 
@@ -34,8 +35,7 @@ Console.WriteLine("----------------------\n");
 //    "Smith",
 //    "beth@email.com",
 //    new DateTime(1979, 1, 13),
-//    25,
-//    EmployeeType.Manager
+//    25
 //);
 
 //bethany.DisplayEmployeeDetails();
@@ -138,45 +138,16 @@ Console.WriteLine("----------------------\n");
 //Console.WriteLine("List:");
 //Console.WriteLine(employeeIdList);
 
-Employee beth = new Employee(
-    "Beth",
-    "Childs",
-    "beth@email.com",
-    new DateTime(1990, 1, 20),
-    25,
-    EmployeeType.Manager
-);
-Employee sarah = new Employee(
-    "Sarah",
-    "Childs",
-    "beth@email.com",
-    new DateTime(1990, 1, 20),
-    25,
-    EmployeeType.Manager
-);
-Employee kosima = new Employee(
-    "Kosima",
-    "Childs",
-    "beth@email.com",
-    new DateTime(1990, 1, 20),
-    25,
-    EmployeeType.Manager
-);
-Employee alison = new Employee(
-    "Alison",
-    "Childs",
-    "beth@email.com",
-    new DateTime(1990, 1, 20),
-    25,
-    EmployeeType.Manager
-);
+Employee beth = new Employee("Beth", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
+Employee sarah = new Employee("Sarah", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
+Employee kosima = new Employee("Kosima", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
+Employee alison = new Employee("Alison", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
 Employee krystal = new Employee(
     "Krystal",
     "Childs",
     "beth@email.com",
     new DateTime(1990, 1, 20),
-    25,
-    EmployeeType.Manager
+    25
 );
 
 //Employee[] employees = new Employee[] { beth, sarah, alison, kosima, krystal };
@@ -200,3 +171,38 @@ foreach (Employee e in employeeList)
 {
     Console.WriteLine($"{e.FirstName} works here.");
 }
+
+Manager rachel = new Manager("Rachel", "Duncan", "rachel@email.com", new DateTime(1980, 1, 16), 30);
+
+rachel.DisplayEmployeeDetails();
+rachel.PerformWork(25);
+rachel.ReceiveWage();
+
+rachel.AttendManagementMeeting();
+
+Researcher delphine = new JuniorResearcher(
+    "Delphine",
+    "duBois",
+    "delphine@neolution.com",
+    new DateTime(1988, 1, 23),
+    17
+);
+
+delphine.ResearchNewPieTastes(5);
+delphine.ResearchNewPieTastes(8);
+
+Employee felix = new Employee(
+    "Felix",
+    "Manning",
+    "felix@email.com",
+    new DateTime(1995, 9, 15),
+    20,
+    "Holloway Road",
+    "13",
+    "12345",
+    "Vancover"
+);
+
+string streetName = felix.Address.Street;
+
+Console.WriteLine($"{felix.FirstName} {felix.LastName} lives on {streetName}");

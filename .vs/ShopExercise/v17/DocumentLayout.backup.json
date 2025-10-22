@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\hr\\employeetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\hr\\employeetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\shopexercise.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\shopexercise.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\hr\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\accounting\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\accounting\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\accounting\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\accounting\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\hr\\worktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\hr\\worktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\hr\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\hr\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|c:\\users\\katie.loesch\\onedrive - aveva solutions limited\\dev\\csharpprojects\\shopexercise\\shopexercise\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD170DEF-A12C-4A77-86C7-89C578FD0528}|ShopExercise\\ShopExercise.csproj|solutionrelative:shopexercise\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,20 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Program.cs",
               "RelativeDocumentMoniker": "ShopExercise\\Program.cs",
               "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Program.cs",
               "RelativeToolTip": "ShopExercise\\Program.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAqwMgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAALwAAAAAAAAAAAAAANAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T17:44:44.817Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Address.cs",
+              "RelativeDocumentMoniker": "ShopExercise\\Address.cs",
+              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Address.cs",
+              "RelativeToolTip": "ShopExercise\\Address.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T20:46:59.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -64,88 +62,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ShopExercise.csproj",
-              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\ShopExercise.csproj",
-              "RelativeDocumentMoniker": "ShopExercise\\ShopExercise.csproj",
-              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\ShopExercise.csproj",
-              "RelativeToolTip": "ShopExercise\\ShopExercise.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-20T14:07:07.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WorkTask.cs",
-              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\WorkTask.cs",
-              "RelativeDocumentMoniker": "ShopExercise\\HR\\WorkTask.cs",
-              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\WorkTask.cs",
-              "RelativeToolTip": "ShopExercise\\HR\\WorkTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Manager.cs",
+              "RelativeDocumentMoniker": "ShopExercise\\Manager.cs",
+              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Manager.cs",
+              "RelativeToolTip": "ShopExercise\\Manager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:07:34.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeType.cs",
-              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\EmployeeType.cs",
-              "RelativeDocumentMoniker": "ShopExercise\\HR\\EmployeeType.cs",
-              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\EmployeeType.cs",
-              "RelativeToolTip": "ShopExercise\\HR\\EmployeeType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T13:49:59.48Z",
+              "WhenOpened": "2025-10-22T20:04:55.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\Employee.cs",
               "RelativeDocumentMoniker": "ShopExercise\\HR\\Employee.cs",
               "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\Employee.cs",
               "RelativeToolTip": "ShopExercise\\HR\\Employee.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAmwJUAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAcwHgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T17:46:55.82Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Test.cs",
-              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\Test.cs",
-              "RelativeDocumentMoniker": "ShopExercise\\HR\\Test.cs",
-              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\HR\\Test.cs",
-              "RelativeToolTip": "ShopExercise\\HR\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:22:33.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Accounting\\Account.cs",
-              "RelativeDocumentMoniker": "ShopExercise\\Accounting\\Account.cs",
-              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Accounting\\Account.cs",
-              "RelativeToolTip": "ShopExercise\\Accounting\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:33:18.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Accounting\\Customer.cs",
-              "RelativeDocumentMoniker": "ShopExercise\\Accounting\\Customer.cs",
-              "ToolTip": "C:\\Users\\katie.loesch\\OneDrive - AVEVA Solutions Limited\\dev\\CsharpProjects\\ShopExercise\\ShopExercise\\Accounting\\Customer.cs",
-              "RelativeToolTip": "ShopExercise\\Accounting\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:33:40.039Z"
             }
           ]
         }

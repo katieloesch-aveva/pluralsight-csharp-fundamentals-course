@@ -17,8 +17,9 @@ namespace ShopExercise.HR
         private double? hourlyRate;
 
         private DateTime dob;
-        private EmployeeType employeeType;
         private const int minimalHoursWorkedUnit = 1;
+
+        private Address address;
 
         public static double taxRate = 0.15;
         public static double bonusPercentage = 0.15;
@@ -46,7 +47,7 @@ namespace ShopExercise.HR
         public int NumberOfHoursWorked
         {
             get { return numberOfHoursWorked; }
-            private set { numberOfHoursWorked = value; }
+            protected set { numberOfHoursWorked = value; }
         }
         public double Wage
         {
@@ -58,11 +59,13 @@ namespace ShopExercise.HR
             get { return dob; }
             private set { dob = value; }
         }
-        public EmployeeType EmployeeType
+
+        public Address Address
         {
-            get { return employeeType; }
-            private set { employeeType = value; }
+            get { return address; }
+            set { address = value; }
         }
+
         public double? HourlyRate
         {
             get { return hourlyRate; }
@@ -80,15 +83,14 @@ namespace ShopExercise.HR
         }
 
         public Employee(string first, string last, string em, DateTime bd)
-            : this(first, last, em, bd, 0, EmployeeType.StoreManager) { }
+            : this(first, last, em, bd, 0) { }
 
         public Employee(
             string firstName,
             string lastName,
             string email,
             DateTime dob,
-            double? hourlyRate,
-            EmployeeType employeeType
+            double? hourlyRate
         )
         {
             FirstName = firstName;
@@ -96,7 +98,27 @@ namespace ShopExercise.HR
             Email = email;
             Dob = dob;
             HourlyRate = hourlyRate ?? 10;
-            EmployeeType = employeeType;
+        }
+
+        public Employee(
+            string firstName,
+            string lastName,
+            string email,
+            DateTime dob,
+            double? hourlyRate,
+            string street,
+            string houseNumber,
+            string zipCode,
+            string city
+        )
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Email = email;
+            Dob = dob;
+            HourlyRate = hourlyRate ?? 10;
+
+            Address = new Address(street, houseNumber, zipCode, city);
         }
 
         public void PerformWork()
@@ -116,21 +138,10 @@ namespace ShopExercise.HR
 
         public double ReceiveWage(bool resetHours = true)
         {
-            double wageBeforeTax = 0.0;
-            if (EmployeeType == EmployeeType.Manager)
-            {
-                Console.WriteLine(
-                    $"An extra was added to the wage since {firstName} is a manager!"
-                );
-                wageBeforeTax = NumberOfHoursWorked * HourlyRate.Value * 1.25;
-            }
-            else
-            {
-                wageBeforeTax = NumberOfHoursWorked * HourlyRate.Value;
-            }
+            double wageBeforeTax = NumberOfHoursWorked * HourlyRate.Value;
+            double taxAmount = wageBeforeTax * taxRate;
 
-            double taxAmount = wageBeforeTax - taxRate;
-            wage = wageBeforeTax - taxAmount;
+            Wage = wageBeforeTax - taxAmount;
 
             Console.WriteLine(
                 $"{FirstName} {LastName} has recevied a wage of {Wage} for {NumberOfHoursWorked} hour(s) of work."
