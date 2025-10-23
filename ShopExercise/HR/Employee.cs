@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShopExercise.HR
 {
-    internal class Employee
+    internal class Employee : IEmployee
     {
         private string firstName;
         private string lastName;
@@ -180,6 +180,16 @@ namespace ShopExercise.HR
                 $"The employee got a bonus of {bonus} and the tax on the bonus is {bonusTax}"
             );
             return bonus;
+        }
+
+        public virtual void giveBonus()
+        {
+            Console.WriteLine($"{firstName} {lastName} received a generic bonus of 100.");
+        }
+
+        public void GiveBonus()
+        {
+            Console.WriteLine($"{firstName} reveived a bonus.");
         }
     }
 }

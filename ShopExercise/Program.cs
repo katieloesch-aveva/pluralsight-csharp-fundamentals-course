@@ -160,25 +160,25 @@ Employee krystal = new Employee(
 //    );
 //}
 
-List<Employee> employeeList = new List<Employee>();
-employeeList.Add(beth);
-employeeList.Insert(0, alison);
-employeeList.Add(kosima);
-employeeList.Insert(0, sarah);
-employeeList.Add(krystal);
+//List<Employee> employeeList = new List<Employee>();
+//employeeList.Add(beth);
+//employeeList.Insert(0, alison);
+//employeeList.Add(kosima);
+//employeeList.Insert(0, sarah);
+//employeeList.Add(krystal);
 
-foreach (Employee e in employeeList)
-{
-    Console.WriteLine($"{e.FirstName} works here.");
-}
+//foreach (Employee e in employeeList)
+//{
+//    Console.WriteLine($"{e.FirstName} works here.");
+//}
 
 Manager rachel = new Manager("Rachel", "Duncan", "rachel@email.com", new DateTime(1980, 1, 16), 30);
 
-rachel.DisplayEmployeeDetails();
-rachel.PerformWork(25);
-rachel.ReceiveWage();
+//rachel.DisplayEmployeeDetails();
+//rachel.PerformWork(25);
+//rachel.ReceiveWage();
 
-rachel.AttendManagementMeeting();
+//rachel.AttendManagementMeeting();
 
 Researcher delphine = new JuniorResearcher(
     "Delphine",
@@ -188,8 +188,8 @@ Researcher delphine = new JuniorResearcher(
     17
 );
 
-delphine.ResearchNewPieTastes(5);
-delphine.ResearchNewPieTastes(8);
+//delphine.ResearchNewPieTastes(5);
+//delphine.ResearchNewPieTastes(8);
 
 Employee felix = new Employee(
     "Felix",
@@ -203,6 +203,9 @@ Employee felix = new Employee(
     "Vancover"
 );
 
-string streetName = felix.Address.Street;
+//string streetName = felix.Address.Street;
 
-Console.WriteLine($"{felix.FirstName} {felix.LastName} lives on {streetName}");
+//Console.WriteLine($"{felix.FirstName} {felix.LastName} lives on {streetName}");
+
+felix.giveBonus();
+rachel.giveBonus();

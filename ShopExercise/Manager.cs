@@ -26,5 +26,21 @@ namespace ShopExercise
                 $"Manager {FirstName} {LastName} is now attending a long meeting that could have been an email."
             );
         }
+
+        public override void giveBonus()
+        {
+            if (NumberOfHoursWorked > 5)
+            {
+                Console.WriteLine(
+                    $"Manager {FirstName} {LastName} received a management bonus of 500."
+                );
+            }
+            else
+            {
+                Console.WriteLine(
+                    $"Manager {FirstName} {LastName} recieved a management bonus of 250."
+                );
+            }
+        }
     }
 }
