@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShopExercise.HR
 {
-    internal class Employee : IEmployee
+    public class Employee : IEmployee
     {
         private string firstName;
         private string lastName;
@@ -123,11 +123,7 @@ namespace ShopExercise.HR
 
         public void PerformWork()
         {
-            //numberOfHoursWorked++;
             PerformWork(minimalHoursWorkedUnit);
-            //Console.WriteLine(
-            //    $"{firstName} {lastName} has worked for {numberOfHoursWorked} hour(s)!"
-            //);
         }
 
         public void PerformWork(int numberOfHours)
@@ -191,5 +187,10 @@ namespace ShopExercise.HR
         {
             Console.WriteLine($"{firstName} reveived a bonus.");
         }
+
+        //public IEnumerable<object> NumberOfHoursWorked()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

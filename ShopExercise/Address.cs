@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShopExercise
 {
-    internal class Address
+    public class Address
     {
         private string street;
         private string houseNumber;

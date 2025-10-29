@@ -3,8 +3,8 @@ using ShopExercise;
 using ShopExercise.Accounting;
 using ShopExercise.HR;
 
-Console.WriteLine("Creating an employee");
-Console.WriteLine("----------------------\n");
+//Console.WriteLine("Creating an employee");
+//Console.WriteLine("----------------------\n");
 
 //Employee bethany = new Employee(
 //    "Bethany",
@@ -207,5 +207,23 @@ Employee felix = new Employee(
 
 //Console.WriteLine($"{felix.FirstName} {felix.LastName} lives on {streetName}");
 
-felix.giveBonus();
-rachel.giveBonus();
+//felix.giveBonus();
+//rachel.giveBonus();
+
+IEmployee bethany = new StoreManager(
+    "Bethany",
+    "Smith",
+    "bethany@email.com",
+    new DateTime(1979, 1, 14),
+    25
+);
+
+Console.WriteLine("How many hours do we need to register for Bethany?");
+int numberOfHours = 0;
+
+string input = Console.ReadLine();
+numberOfHours = int.Parse(input);
+
+bethany.DisplayEmployeeDetails();
+bethany.PerformWork();
+bethany.PerformWork(numberOfHours);
