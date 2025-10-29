@@ -3,8 +3,61 @@ using ShopExercise;
 using ShopExercise.Accounting;
 using ShopExercise.HR;
 
-//Console.WriteLine("Creating an employee");
-//Console.WriteLine("----------------------\n");
+List<Employee> employees = new List<Employee>();
+
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("**********************************");
+Console.WriteLine("Cafe Debussy - Best Pies in Paris");
+Console.WriteLine("**********************************");
+Console.ForegroundColor = ConsoleColor.White;
+
+string userSelection;
+Console.ForegroundColor = ConsoleColor.Blue;
+
+Utilities.CheckForExistingEmployeeFile();
+
+do
+{
+    Console.ForegroundColor = ConsoleColor.Cyan;
+    Console.WriteLine($"Loaded {employees.Count} employee(s)\n\n");
+    Console.ForegroundColor = ConsoleColor.White;
+
+    Console.WriteLine("*********************");
+    Console.WriteLine("* Select an action *");
+    Console.WriteLine("*********************");
+
+    Console.WriteLine("1: Register employee");
+    Console.WriteLine("2: View all employees");
+    Console.WriteLine("3: Save data");
+    Console.WriteLine("4: Load data");
+    Console.WriteLine("9: Quit application");
+    Console.Write("Your selection: ");
+
+    userSelection = Console.ReadLine();
+
+    switch (userSelection)
+    {
+        case "1":
+            Utilities.RegisterEmployee(employees);
+            break;
+        case "2":
+            Utilities.ViewAllEmployees(employees);
+            break;
+        case "3":
+            Utilities.SaveEmployees(employees);
+            break;
+        case "4":
+            Utilities.LoadEmployees(employees);
+            break;
+        case "9":
+            break;
+        default:
+            Console.WriteLine("Invalid selection. Please try again.");
+            break;
+    }
+} while (userSelection != "9");
+
+Console.WriteLine("Thanks for using the application.");
 
 //Employee bethany = new Employee(
 //    "Bethany",
@@ -138,17 +191,17 @@ using ShopExercise.HR;
 //Console.WriteLine("List:");
 //Console.WriteLine(employeeIdList);
 
-Employee beth = new Employee("Beth", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
-Employee sarah = new Employee("Sarah", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
-Employee kosima = new Employee("Kosima", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
-Employee alison = new Employee("Alison", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
-Employee krystal = new Employee(
-    "Krystal",
-    "Childs",
-    "beth@email.com",
-    new DateTime(1990, 1, 20),
-    25
-);
+//Employee beth = new Employee("Beth", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
+//Employee sarah = new Employee("Sarah", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
+//Employee kosima = new Employee("Kosima", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
+//Employee alison = new Employee("Alison", "Childs", "beth@email.com", new DateTime(1990, 1, 20), 25);
+//Employee krystal = new Employee(
+//    "Krystal",
+//    "Childs",
+//    "beth@email.com",
+//    new DateTime(1990, 1, 20),
+//    25
+//);
 
 //Employee[] employees = new Employee[] { beth, sarah, alison, kosima, krystal };
 
@@ -172,7 +225,7 @@ Employee krystal = new Employee(
 //    Console.WriteLine($"{e.FirstName} works here.");
 //}
 
-Manager rachel = new Manager("Rachel", "Duncan", "rachel@email.com", new DateTime(1980, 1, 16), 30);
+//Manager rachel = new Manager("Rachel", "Duncan", "rachel@email.com", new DateTime(1980, 1, 16), 30);
 
 //rachel.DisplayEmployeeDetails();
 //rachel.PerformWork(25);
@@ -180,28 +233,28 @@ Manager rachel = new Manager("Rachel", "Duncan", "rachel@email.com", new DateTim
 
 //rachel.AttendManagementMeeting();
 
-Researcher delphine = new JuniorResearcher(
-    "Delphine",
-    "duBois",
-    "delphine@neolution.com",
-    new DateTime(1988, 1, 23),
-    17
-);
+//Researcher delphine = new JuniorResearcher(
+//    "Delphine",
+//    "duBois",
+//    "delphine@neolution.com",
+//    new DateTime(1988, 1, 23),
+//    17
+//);
 
 //delphine.ResearchNewPieTastes(5);
 //delphine.ResearchNewPieTastes(8);
 
-Employee felix = new Employee(
-    "Felix",
-    "Manning",
-    "felix@email.com",
-    new DateTime(1995, 9, 15),
-    20,
-    "Holloway Road",
-    "13",
-    "12345",
-    "Vancover"
-);
+//Employee felix = new Employee(
+//    "Felix",
+//    "Manning",
+//    "felix@email.com",
+//    new DateTime(1995, 9, 15),
+//    20,
+//    "Holloway Road",
+//    "13",
+//    "12345",
+//    "Vancover"
+//);
 
 //string streetName = felix.Address.Street;
 
@@ -210,20 +263,20 @@ Employee felix = new Employee(
 //felix.giveBonus();
 //rachel.giveBonus();
 
-IEmployee bethany = new StoreManager(
-    "Bethany",
-    "Smith",
-    "bethany@email.com",
-    new DateTime(1979, 1, 14),
-    25
-);
+//IEmployee bethany = new StoreManager(
+//    "Bethany",
+//    "Smith",
+//    "bethany@email.com",
+//    new DateTime(1979, 1, 14),
+//    25
+//);
 
-Console.WriteLine("How many hours do we need to register for Bethany?");
-int numberOfHours = 0;
+//Console.WriteLine("How many hours do we need to register for Bethany?");
+//int numberOfHours = 0;
 
-string input = Console.ReadLine();
-numberOfHours = int.Parse(input);
+//string input = Console.ReadLine();
+//numberOfHours = int.Parse(input);
 
-bethany.DisplayEmployeeDetails();
-bethany.PerformWork();
-bethany.PerformWork(numberOfHours);
+//bethany.DisplayEmployeeDetails();
+//bethany.PerformWork();
+//bethany.PerformWork(numberOfHours);
